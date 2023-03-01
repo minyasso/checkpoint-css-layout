@@ -1,0 +1,261 @@
+header {
+    background-color: white;
+    width: 100%;
+    position: fixed; 
+    z-index: 999;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 20px;
+}
+header h1 > span {
+    color: rgb(17, 203, 175);
+} 
+header h1 {
+    color: rgb(154, 147, 147);
+}
+.menu > a { 
+    color: rgb(148, 137, 137);
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: 500;
+    padding-right: 40px; 
+}
+
+.introduction {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+} 
+.introduction-logo {
+    padding: 150px 500px 10px 500px;
+    font-size: 1.3em;
+}
+.introduction-logo > h1 {
+    color: rgb(17, 203, 175);
+}
+.introduction-logo > img { 
+    padding: 0 300px;
+}
+
+.introduction-text {
+    display: flex;
+}
+.introduction-text > p {
+    color: rgb(114, 109, 109);
+    padding: 0 60px;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: 500;
+    padding-right: 40px; 
+} 
+.services {
+    display: flex;
+    justify-content: center;
+}
+.service-card-patients {
+    background-color: rgb(52, 213, 189);
+    width: 21.25em;
+    border-radius: 10px;
+    padding: 0 30px;
+    margin: 15px;
+    transition: 0.7s ease;
+}
+.service-card-doctors {
+    background-color: rgb(77, 142, 232);
+    width: 21.25em;
+    border-radius: 10px;
+    padding: 0 30px;
+    margin: 15px;
+    transition: 0.7s ease;
+
+}
+.service-card-clinic {
+    background-color: rgb(32, 31, 31);
+    width: 21.25em;
+    border-radius: 10px;
+    padding: 0 30px;
+    margin: 15px;
+    transition: 0.7s ease;
+
+
+}
+.service-card > div {
+    padding: 60px 5px;
+
+}
+.text-color > h2 , h1 {
+    color: aliceblue;
+} 
+.section__inner {
+    display: flex;
+    padding: 50px 200px;
+}
+.gipo img {
+    width: 55px;
+    height: 55px;
+}
+.group-one {
+    display: flex;
+    
+}
+.group-one li {
+    padding: 10px 20px;
+}
+.group-two {
+    display: flex;
+}
+.group-two li {
+    padding: 10px 30px;
+}
+.feegow {
+    padding: 10px 30px;
+}
+.section__inner > h1 {
+    color: rgb(17, 203, 175);
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: 500;
+    padding-right: 40px;
+
+}
+.grid {
+    display: flex;
+    padding: 50px 200px;
+    background: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHCAgHBwcHBwcHBwoHBwcHBw8ICQcKFREWFhURExMYHSggGCYlGxMfITEhMSkrLi4uFx8zODMtNygtLisBCgoKDQ0NDg0NDisZFRkrKy0rLSsrKys3KystKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKystKysrK//AABEIAOEA4QMBIgACEQEDEQH/xAAaAAEBAQEBAQEAAAAAAAAAAAABAAIEAwUH/8QAGBABAQEBAQAAAAAAAAAAAAAAAAEREgL/xAAZAQEBAQEBAQAAAAAAAAAAAAABAAIDBQT/xAAWEQEBAQAAAAAAAAAAAAAAAAAAARH/2gAMAwEAAhEDEQA/AP06ims187yRWa1WaEKyaAUkgjGoy1Emo1GY1CGo0xGimkNGoG0VazagqzVazaEqxTaxaAqzVazaEhUAEgkigkn0GaRXV0ZopoZLNBQQSQRMEMSajUZhIah1nVq1NatZ1atDWs2jWbVqNrNqtZtGhWs2q1m0alayrWQCBaEigkCgkn0azSK6a6is00BCgoIIoFGKJAlkrUVo0atDWjRo0aDaLRazatRtZtVrNGhWi1ULUEgkgkgkkkkkU7wk06AEBBJJJIhJJJJIBIaqBoOs2rQNC0atGrUrRqCCCRQRSTKaWFBHDhTKaxJOpBFpAoEIpJJJJJAJA1mgIVChAUgAAhJJFIInGkzhw4cKZxY3hxrAxixvDhxPPC3iWJtIBooEJJFJJIEAhACkMoVmkBCpJIIpAE4ZChhwyNSNRM4cakakakTGHG8ONYmOVy9MWHExynpyFgeaKYIRSSSQKRCQBAQBFZQBAQWFJDCsawoSGQyNSNSISNSGRqRqRCQyNSNSNSJmeTjWHGsDOLG8OFMYm8STlTWLHMMpoAhFJBJAsogEA0BANDAhiOHChjUikakOISNyKRuRqRCRuRSNyNyASNSGQyNYhhxrDhTOLGsOEMYm8STjGN4McgyGgCBWhQQCAgCAVQQkkUiMOEyHEpGpFI1IZEpG5FI1I3IlI3IpGpGsCkOGQ40hhw4cIZwkpMpoJOPBjYcQzgarNCZopooIBAIBCSSSKOIkqNSKNSGRKRuQSNyNSBSNyCRuRpKRqRSNSNJQ4pCQsWFIpFFBFJOMNMuLLNFNZoIrNNZrJFCooSSSSIMRMMEajURjUEbjUiMjcgjUaRkbkEajQMKhhSMUJSRSKSRSSKLirNarNcGBWK1WaKWazTWayRQqAkkklGoy1DCY1BGo1E1G4zG43E1GoI1Gg1GoIYQY1BDCikUUkSUkkkkknCKazXFkVitVmslms01mggKhlJApEwQxqFuNRmNxuJqNxiPSNQNxqMxuEGNRmNQgwwNQpEElEFFJIpJJJw1mtVmuDLNYrVZoLNZprNZIoNZBRBSLUZjUaiajcYjcbibjcYj0jQajcZjUIahghhDUIMSSSKKSJRCRKCScVYpTgyxWaEGmazUgWaEmUkkU1DEjC35biTcDcekCaD0jSRDUMSIJiRRSSRSRKSSSSSL/2Q==);
+}
+
+   
+.stats__header > h1 {
+    color: rgb(17, 203, 175);
+    text-decoration: none;
+    font-size: 2.1em;
+    font-weight: 500;
+    padding-right: 40px;
+
+}
+.stats__header {
+    padding: 30px 100px;
+}
+.vert-align {
+    background-color: white;
+    width: 21.25em;
+    border-radius: 10px;
+    padding: 60px 0px;
+    margin: 15px;
+    transition: 0.7s ease;
+}  
+.col-1 {
+    padding: 50px 50px;
+} 
+.vert-align h3 {
+    padding: 30px 90px;
+    font-size: 1.6em;
+    color: rgb(17, 203, 175);
+}
+.vert-align img {
+    padding: 0px 130px;
+} 
+.vert-align p {
+    padding: 0px 40px;
+}
+
+
+
+
+
+
+.office-test {
+    padding: 20px 550px;
+}
+.office-test h1 {
+    color: rgb(17, 203, 175);
+    text-decoration: none;
+    font-size: 2.5em;
+    font-weight: 500;
+    padding-right: 40px;
+
+}
+
+.office-1 {
+    display: flex;
+    padding: 30px 200px;
+}
+.office-2 {
+    display: flex;
+    padding: 30px 200px;
+}
+.office-3 {
+    display: flex;
+    padding: 30px 200px;
+}
+
+
+
+.join-us__header > h1{
+    color: black;
+    padding: 20px 400px;
+
+}
+.office__inner {
+    background-color: white;
+    width: 21.25em;
+    border-radius: 10px;
+    padding: 10px 40px;
+    margin: 15px;
+    transition: 0.7s ease;
+
+}
+.office__desc {
+    padding: 0px 30px;
+    color: rgb(114, 109, 109);
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 500;
+    padding-right: 40px;
+   
+}
+.btn {
+    background-color: rgb(255, 255, 255);
+    width: 21.25em;
+    border-radius: 10px;
+    margin: 15px;
+    transition: 0.7s ease;
+    padding: 0px 20px;
+}
+
+
+.btn-1 {
+    color: rgb(42, 35, 167);
+    text-decoration: none;
+    font-size:  1.3em;
+    font-weight: 500;
+    padding: 0px 450px;
+
+}
+
+ 
+footer {
+    background-color: white;
+    color: #fff;
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+
+}
+.footer-test { 
+    font-size: 1em;
+    font-weight: 600;
+    color: gray;
+    padding: 0px 250px;
+}
+.footer-test a {
+    color: rgb(42, 35, 167);
+    text-decoration: none;
+    font-size: 0.9em;
+    font-weight: 500;
+}
+
+
+
+
